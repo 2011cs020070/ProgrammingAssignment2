@@ -42,7 +42,7 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-p<-CacheMatrix(matrix(1:8,4,2))
+p<-CacheMatrix(matrix(1:10,5,2))
 p$get()
 p$getinv()
 
